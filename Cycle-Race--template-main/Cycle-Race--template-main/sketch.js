@@ -84,7 +84,7 @@ function riding()
     ope = createSprite(500,150)
     ope.y = Math.round(random(50,400))
     ope.setCollider("circle",0,0,100)
-    sand = Math.round(random(1,9))
+    sand = Math.round(random(1,4))
     ope.scale = 0.1
     switch(sand)
     {
